@@ -79,6 +79,16 @@ main {
   cursor: pointer;
 }
 
+.attribution {
+  text-align: center;
+  margin-top: 5em;
+  color: white;
+}
+
+.attribution > a {
+  color: white;
+}
+
 @media only screen and (max-width: 570px) {
   .adviceContainer {
     width: 75%;
