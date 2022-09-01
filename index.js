@@ -9,7 +9,7 @@ const Init = async () => {
 };
 
 const FetchAdvice = async () => {
-  return await fetch("https://api.adviceslip.com/advice")
+  return await fetch("https://api.adviceslip.com/advice", { cache: "no-cache" })
     .then((response) => response.json())
     .then((data) => data?.slip);
 };
